@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguinoid.UI.Test.Baseline", "Penguinoid.UI.Test.Baseline\Penguinoid.UI.Test.Baseline.csproj", "{A9A7141F-B04F-4549-A58D-7CB452C9AF65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguinoid.UI.Test.Runner", "Penguinoid.UI.Test.Runner\Penguinoid.UI.Test.Runner.csproj", "{B247B256-269C-4E0B-A224-41BD2B1F9EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguinoid.UI.Test.Generator", "Penguinoid.UI.Test.Generator\Penguinoid.UI.Test.Generator.csproj", "{49CE3578-50AD-454B-A70A-97EC1AE52AB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{78EFCCF7-A40C-4E2C-B0D0-50A45B027A91}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9A7141F-B04F-4549-A58D-7CB452C9AF65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A7141F-B04F-4549-A58D-7CB452C9AF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A7141F-B04F-4549-A58D-7CB452C9AF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A7141F-B04F-4549-A58D-7CB452C9AF65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B247B256-269C-4E0B-A224-41BD2B1F9EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B247B256-269C-4E0B-A224-41BD2B1F9EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B247B256-269C-4E0B-A224-41BD2B1F9EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B247B256-269C-4E0B-A224-41BD2B1F9EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CE3578-50AD-454B-A70A-97EC1AE52AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CE3578-50AD-454B-A70A-97EC1AE52AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CE3578-50AD-454B-A70A-97EC1AE52AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CE3578-50AD-454B-A70A-97EC1AE52AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
